@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>碎片</title>
+<link>https://p1e0es.github.io/</link>
+<description>Recent content on 碎片</description>
+<generator>Hugo</generator>
+<language>en-us</language>
+<copyright>p1e0es</copyright>
+<lastBuildDate>Fri, 12 Jul 2024 10:30:45 +0800</lastBuildDate>
+<atom:link href="https://p1e0es.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>Python杂记</title>
+<link>https://p1e0es.github.io/posts/python%E6%9D%82%E8%AE%B0/</link>
+<pubDate>Fri, 12 Jul 2024 10:30:45 +0800</pubDate>
+<guid>https://p1e0es.github.io/posts/python%E6%9D%82%E8%AE%B0/</guid>
+<description>导出和安装依赖库 pip3 install pipreqs # 导出 pipreqs ./ # 安装 pip3 install -r requirements.txt </description>
+</item>
+<item>
+<title>Linux命令备忘录</title>
+<link>https://p1e0es.github.io/posts/linux%E5%91%BD%E4%BB%A4%E5%A4%87%E5%BF%98%E5%BD%95/</link>
+<pubDate>Thu, 13 Jun 2024 18:07:16 +0800</pubDate>
+<guid>https://p1e0es.github.io/posts/linux%E5%91%BD%E4%BB%A4%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
+<description>大小写转换 # 大写转小写 cat file.txt | tr A-Z a-z &amp;gt; newfile.txt # 小写转大写 cat file.txt | tr a-z A-Z &amp;gt; newfile.txt 文本去重 # 统计重复次数 cat file.txt | sort | uniq -c # uniq 参数： uniq -c: 统计次数 uniq -i: 不区分大小写 获取最新文件的文件名 ls -lthr /data/bwfish/ | tail -n 1 | awk &amp;#39;{print $9}&amp;#39; 命令后台执行 # 挂载命令后台执行,关闭当前shell任务停止 command &amp;amp; # 挂载命令后台执行,关闭当前shell任务依然运行，会将信息输出到nohup.out nohup command &amp;amp; # 将信息输出到指定文件中 nohup command &amp;gt;&amp;gt; main.log 2&amp;gt;&amp;amp;1 &amp;amp; # 等效写法:nohup command &amp;amp;&amp;gt; main.</description>
+</item>
+<item>
+<title>碎片化感悟</title>
+<link>https://p1e0es.github.io/posts/%E7%A2%8E%E7%89%87%E5%8C%96%E6%84%9F%E6%82%9F/</link>
+<pubDate>Sun, 09 Jun 2024 10:25:39 +0800</pubDate>
+<guid>https://p1e0es.github.io/posts/%E7%A2%8E%E7%89%87%E5%8C%96%E6%84%9F%E6%82%9F/</guid>
+<description/>
+</item>
+<item>
+<title>PCB制作学习</title>
+<link>https://p1e0es.github.io/posts/pcb%E5%88%B6%E4%BD%9C%E5%AD%A6%E4%B9%A0/</link>
+<pubDate>Wed, 05 Jun 2024 23:58:30 +0800</pubDate>
+<guid>https://p1e0es.github.io/posts/pcb%E5%88%B6%E4%BD%9C%E5%AD%A6%E4%B9%A0/</guid>
+<description>在IoT研究过程中，经常涉及到硬件，有时候遇到硬件上的一些问题就感觉力不从心，特此想系统学习一下硬件相关的知识，在此做一些记录！</description>
+</item>
+<item>
+<title>相信未来-食指</title>
+<link>https://p1e0es.github.io/posts/%E7%9B%B8%E4%BF%A1%E6%9C%AA%E6%9D%A5-%E9%A3%9F%E6%8C%87/</link>
+<pubDate>Thu, 30 May 2024 17:35:56 +0800</pubDate>
+<guid>https://p1e0es.github.io/posts/%E7%9B%B8%E4%BF%A1%E6%9C%AA%E6%9D%A5-%E9%A3%9F%E6%8C%87/</guid>
+<description/>
+</item>
+<item>
+<title>独立博客收集</title>
+<link>https://p1e0es.github.io/posts/%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%E6%94%B6%E9%9B%86/</link>
+<pubDate>Tue, 28 May 2024 14:44:03 +0800</pubDate>
+<guid>https://p1e0es.github.io/posts/%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%E6%94%B6%E9%9B%86/</guid>
+<description>个人收集的一些独立博客，只为方便自己查看。
+描述一栏具有主观性，若有冒犯或不准确，请博主见谅！
+id description blog github Firmy Yang &amp;laquo;CTF权威指南(Pwn)篇&amp;raquo;作者 https://firmianay.github.io/ https://github.com/firmianay phith0n 前乌云网核心白帽子,p神 https://www.leavesongs.com/ https://github.com/phith0n 国光 学web时发现的一位师傅 https://www.sqlsec.com/ https://github.com/sqlsec Y4tacker 某群里发现的一位佬 http://y4tacker.github.io/ https://github.com/Y4tacker riusksk &amp;laquo;漏洞战争：软件漏洞分析精要&amp;raquo;作者，泉哥 https://riusksk.github.io/ https://github.com/riusksk pseudoyu 区块链开发工程师，折腾hugo主题时发现的一个有趣博主 https://www.pseudoyu.com/ https://github.com/pseudoyu cq674350529 IoT and protocol security researcher https://cq674350529.github.io/ https://github.com/cq674350529 clang 看小米路由器漏洞挖掘时发现的佬，清华Redbud战队 https://xuanxuanblingbling.github.io/ https://github.com/xuanxuanblingbling gtrboy 从clang博客跳转过来的 https://gtrboy.github.io/ https://github.com/gtrboy </description>
+</item>
+<item>
+<title>富士山爱情论</title>
+<link>https://p1e0es.github.io/posts/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E7%88%B1%E6%83%85%E8%AE%BA/</link>
+<pubDate>Mon, 27 May 2024 23:36:13 +0800</pubDate>
+<guid>https://p1e0es.github.io/posts/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E7%88%B1%E6%83%85%E8%AE%BA/</guid>
+<description>你喜欢一个人，就像喜欢富士山。
+你可以看到它，但你不能搬走它。
+你有什么方法可以移动一座富士山，回答是你自己走过去。</description>
+</item>
+<item>
+<title>nc监听报错</title>
+<link>https://p1e0es.github.io/posts/nc%E7%9B%91%E5%90%AC%E6%8A%A5%E9%94%99/</link>
+<pubDate>Fri, 24 May 2024 11:33:33 +0800</pubDate>
+<guid>https://p1e0es.github.io/posts/nc%E7%9B%91%E5%90%AC%E6%8A%A5%E9%94%99/</guid>
+<description>
+# 监听时加个参数n nc -lvvnp 6666 </description>
+</item>
+<item>
+<title>Git命令</title>
+<link>https://p1e0es.github.io/posts/git%E5%91%BD%E4%BB%A4/</link>
+<pubDate>Fri, 24 May 2024 11:27:24 +0800</pubDate>
+<guid>https://p1e0es.github.io/posts/git%E5%91%BD%E4%BB%A4/</guid>
+<description>常用命令 将当前目录初始化为git可管理的仓库
+git init 查看所有分支
+git branch -a 在本地创建并切换到分支main
+git checkout -b main 删除本地分支main
+git branch -d main 删除远程分支master
+git push origin :master 将文件添加在本地暂存区
+git add . 将文件提交到本地仓库
+git commit -m &amp;#34;Just Test&amp;#34; 关联远程仓库
+git remote add origin 你的远程库地址 查看远程仓库的地址
+git remote -v 修改远程仓库的地址
+git remote set-url origin 新的仓库地址 将远程仓库的main分支和本地项目同步合并
+git pull --rebase origin main 将本地项目推送到远程仓库的main分支
+git push -u origin main 查看状态
+git status 新项目提交 先在github新建仓库 在本地项目目录中，使用git进行初始化
+git init 配置git的用户名和邮箱</description>
+</item>
+<item>
+<title/>
+<link>https://p1e0es.github.io/about/</link>
+<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+<guid>https://p1e0es.github.io/about/</guid>
+<description>🍓 简介
+🥕 这里是我的足迹录，记录想法、写写日常以及研究过的东西
+🥕 若某篇文章帮助到了你，或者让你感同身受，那这个角落就有了更多的价值
+🥕 本博客没有评论功能，如需联系可通过下方邮箱
+🍉 自我介绍
+🌱 常用ID：p1e0es，碎片
+🌱 目前从事IoT安全方面的工作
+🌱 兴趣爱好：软件、硬件、自由搏击、写字、读书、画画、国学&amp;hellip;
+🌱 极简主义者
+🍁 博客变迁史
+🍃 2019.11：开通CSDN博客，尝试写博客
+🍃 2020.10：因CSDN不能自定义主题，开始尝试博客园
+🍃 2021.06：博客园自带的写文章模组实在拉跨，决定自建Typecho博客
+🍃 2021.11：想自己写主题，但坑太多，弃Typecho，转向使用Halo博客
+🍃 2022.10：服务器快到期，不想续了，使用Github+Cloudflare-Page的方式搭建Hugo静态博客
+🍃 2024.05：使用原始的github.io+hugo搭建
+📚 看过的书
+📖 2024.07 - 第七天
+📖 2024.06 - 我们生活在巨大的差距里
+📖 2024.06 - 与内在对话：梦境 积极想象 内在转化
+📖 2024.05 - CTF权威指南(Pwn)篇
+📖 2024.03 - 明朝那些事儿
+📖 2023.11 - 一句顶一万句
+📖 2023.10 - 在细雨中呼喊
+📖 2023.09 - 兄弟
+🌸 联系方式</description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Record on 碎片</title>
+    <link>https://p1e0es.github.io/categories/record/</link>
+    <description>Recent content in Record on 碎片</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>p1e0es</copyright>
+    <lastBuildDate>Fri, 12 Jul 2024 10:30:45 +0800</lastBuildDate>
+    <atom:link href="https://p1e0es.github.io/categories/record/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python杂记</title>
+      <link>https://p1e0es.github.io/posts/python%E6%9D%82%E8%AE%B0/</link>
+      <pubDate>Fri, 12 Jul 2024 10:30:45 +0800</pubDate>
+      <guid>https://p1e0es.github.io/posts/python%E6%9D%82%E8%AE%B0/</guid>
+      <description>导出和安装依赖库 pip3 install pipreqs # 导出 pipreqs ./ # 安装 pip3 install -r requirements.txt </description>
+    </item>
+    <item>
+      <title>Linux命令备忘录</title>
+      <link>https://p1e0es.github.io/posts/linux%E5%91%BD%E4%BB%A4%E5%A4%87%E5%BF%98%E5%BD%95/</link>
+      <pubDate>Thu, 13 Jun 2024 18:07:16 +0800</pubDate>
+      <guid>https://p1e0es.github.io/posts/linux%E5%91%BD%E4%BB%A4%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
+      <description>大小写转换 # 大写转小写 cat file.txt | tr A-Z a-z &amp;gt; newfile.txt # 小写转大写 cat file.txt | tr a-z A-Z &amp;gt; newfile.txt 文本去重 # 统计重复次数 cat file.txt | sort | uniq -c # uniq 参数： uniq -c: 统计次数 uniq -i: 不区分大小写 获取最新文件的文件名 ls -lthr /data/bwfish/ | tail -n 1 | awk &amp;#39;{print $9}&amp;#39; 命令后台执行 # 挂载命令后台执行,关闭当前shell任务停止 command &amp;amp; # 挂载命令后台执行,关闭当前shell任务依然运行，会将信息输出到nohup.out nohup command &amp;amp; # 将信息输出到指定文件中 nohup command &amp;gt;&amp;gt; main.log 2&amp;gt;&amp;amp;1 &amp;amp; # 等效写法:nohup command &amp;amp;&amp;gt; main.</description>
+    </item>
+    <item>
+      <title>PCB制作学习</title>
+      <link>https://p1e0es.github.io/posts/pcb%E5%88%B6%E4%BD%9C%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Wed, 05 Jun 2024 23:58:30 +0800</pubDate>
+      <guid>https://p1e0es.github.io/posts/pcb%E5%88%B6%E4%BD%9C%E5%AD%A6%E4%B9%A0/</guid>
+      <description>在IoT研究过程中，经常涉及到硬件，有时候遇到硬件上的一些问题就感觉力不从心，特此想系统学习一下硬件相关的知识，在此做一些记录！</description>
+    </item>
+    <item>
+      <title>独立博客收集</title>
+      <link>https://p1e0es.github.io/posts/%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%E6%94%B6%E9%9B%86/</link>
+      <pubDate>Tue, 28 May 2024 14:44:03 +0800</pubDate>
+      <guid>https://p1e0es.github.io/posts/%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%E6%94%B6%E9%9B%86/</guid>
+      <description>个人收集的一些独立博客，只为方便自己查看。&#xA;描述一栏具有主观性，若有冒犯或不准确，请博主见谅！&#xA;id description blog github Firmy Yang &amp;laquo;CTF权威指南(Pwn)篇&amp;raquo;作者 https://firmianay.github.io/ https://github.com/firmianay phith0n 前乌云网核心白帽子,p神 https://www.leavesongs.com/ https://github.com/phith0n 国光 学web时发现的一位师傅 https://www.sqlsec.com/ https://github.com/sqlsec Y4tacker 某群里发现的一位佬 http://y4tacker.github.io/ https://github.com/Y4tacker riusksk &amp;laquo;漏洞战争：软件漏洞分析精要&amp;raquo;作者，泉哥 https://riusksk.github.io/ https://github.com/riusksk pseudoyu 区块链开发工程师，折腾hugo主题时发现的一个有趣博主 https://www.pseudoyu.com/ https://github.com/pseudoyu cq674350529 IoT and protocol security researcher https://cq674350529.github.io/ https://github.com/cq674350529 clang 看小米路由器漏洞挖掘时发现的佬，清华Redbud战队 https://xuanxuanblingbling.github.io/ https://github.com/xuanxuanblingbling gtrboy 从clang博客跳转过来的 https://gtrboy.github.io/ https://github.com/gtrboy </description>
+    </item>
+  </channel>
+</rss>
